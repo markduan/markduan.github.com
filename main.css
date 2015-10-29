@@ -1,0 +1,50 @@
+@-webkit-keyframes expand-up {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 80px;
+  }
+}
+@keyframes expand-up {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 80px;
+  }
+}
+.hjdh {
+  top: 89px;
+}
+.cover {
+  height: 300px;
+  position: relative;
+  background-color: #eeeeee;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: expand-up;
+  animation-name: expand-up;
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+.back-cover {
+  position: relative;
+  background-color: #cccccc;
+  height: 30px;
+}
+.block {
+  display: inline-block;
+  height: 100vh;
+  width: 100px;
+  margin-bottom: 40px;
+  border: 1px dashed #555555;
+}
